@@ -1096,3 +1096,49 @@ body{overflow-x:clip}button,a,summary{-webkit-tap-highlight-color:transparent}
 @media(max-width:768px){.nav-inner{padding-inline:20px}.hero{padding:120px 0 62px}.hero-inner{grid-template-columns:1fr;gap:54px}.hero-title{font-size:clamp(2.5rem,8vw,3.5rem)}.hero-badge{margin-bottom:24px}.hero-sub{font-size:1rem;margin-bottom:26px}.hero-actions{gap:12px}.btn-primary-lg,.btn-outline-lg{padding:13px 22px;font-size:.86rem}.app-universe{max-width:430px;width:calc(100% - 14px);margin:0 auto}.orbit-app .app-icon{width:76px;height:76px}.collection-strip .container{gap:12px;flex-wrap:wrap;font-size:.7rem}.collection-strip span:last-child{flex-basis:100%;text-align:center}.collection-strip span:nth-child(4){display:none}.section-top{display:block}.section-top .section-sub{max-width:420px}.apps-section{padding:66px 0}.apps-grid{gap:16px}.app-card{padding:22px}.app-card-top{align-items:start;flex-direction:column;gap:16px}.about-grid{grid-template-columns:1fr;gap:38px}.about-section{padding:64px 0}.faq-section{padding:66px 0}.tafix-footer{flex-direction:column;gap:30px}.tafix-footer>div:last-child{flex-wrap:wrap;gap:20px}.footer-bottom{flex-direction:column;align-items:start}.product-feature-grid{grid-template-columns:1fr;gap:34px}.product-hero{padding-top:115px}.product-features,.product-support{padding:55px 0}.product-hero .hero-title{font-size:2.5rem}}
 @media(max-width:480px){.apps-grid{grid-template-columns:1fr}.app-card-top{flex-direction:row;align-items:center}.app-card{padding:26px}.hero-badge span{font-size:.69rem}.orbit-grid{gap:24px 12px}.orbit-app .app-icon{width:65px;height:65px}.app-universe{padding:22px}.cta-title{font-size:2rem}.cta-actions{max-width:100%}.btn-cta-primary{padding:16px 28px}.btn-cta-ghost{white-space:normal;overflow-wrap:anywhere}.collection-strip .container{gap:10px}.hero-trust{gap:22px}.trust-divider{display:block}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.reveal-ready .reveal:not(.visible){opacity:1;transform:none}}
+
+/* Tafix black & white brand theme — September 2026. */
+:root {
+  --bg:#FFFFFF; --bg-alt:#FAFAFA; --surface:#FFFFFF; --surface-2:#FFFFFF;
+  --accent:#111111; --accent-mid:#333333; --accent-light:#777777;
+  --accent-ghost:rgba(0,0,0,.035); --accent-border:rgba(0,0,0,.12);
+  --text-1:#111111; --text-2:#505050; --text-3:#666666;
+  --border:rgba(0,0,0,.09);
+  --shadow-sm:0 2px 12px rgba(0,0,0,.035);
+  --shadow-md:0 8px 32px rgba(0,0,0,.065);
+  --shadow-lg:0 24px 64px rgba(0,0,0,.08);
+}
+body::before,.hero::before,.hero::after,.cta-inner::before{display:none}
+:focus-visible{outline-color:#111111}
+.nav,.nav.scrolled{background:rgba(255,255,255,.97);border-bottom:1px solid #EAEAEA;box-shadow:none}
+.nav-logo{display:inline-flex;align-items:center;gap:10px;color:#111111}
+.nav-logo .brand-word,.nav-logo .brand-word span{color:#111111}
+.brand-icon{width:38px;height:38px;object-fit:contain;flex-shrink:0;border-radius:0}
+.btn-primary,.btn-primary-lg,.btn-cta-primary{background:#111111;color:#FFFFFF;box-shadow:none}
+.btn-primary:hover,.btn-primary-lg:hover,.btn-cta-primary:hover{background:#333333;box-shadow:0 6px 20px rgba(0,0,0,.1)}
+.btn-outline-lg{color:#111111;border-color:#CCCCCC;background:#FFFFFF}
+.btn-outline-lg:hover{background:#F4F4F4;border-color:#111111}
+.hero-badge{background:#F7F7F7;box-shadow:none;border-color:#E6E6E6}
+.hero-badge-dot{background:#111111;color:#FFFFFF}
+.app-universe{background:#FAFAFA;border-color:#E4E4E4;box-shadow:0 24px 70px rgba(0,0,0,.055)}
+.app-icon{background:#F0F0F0;color:#111111}
+.orbit-app .app-icon{border-color:#E5E5E5;box-shadow:0 5px 14px rgba(0,0,0,.04)}
+.collection-strip{background:#FAFAFA;border-color:#EAEAEA}
+.collection-strip span:nth-child(even){color:#888888}
+.app-card{background:#FFFFFF;border-color:#E4E4E4}
+.app-card:hover{box-shadow:0 10px 28px rgba(0,0,0,.065)}
+.platform{background:#FAFAFA;border-color:#E4E4E4;color:#555555}
+.app-filters button[aria-pressed=true]{background:#111111;border-color:#111111;color:#FFFFFF}
+.about-section,.product-features{background:#FAFAFA;border-color:#EAEAEA}
+.cta-inner{background:#F7F7F7;border:1px solid #E5E5E5}
+.cta-label{color:#444444;border-color:#CCCCCC;background:#FFFFFF}
+.cta-title,.cta-title em{color:#111111}
+.cta-sub{color:#555555}
+.btn-cta-ghost{color:#333333;border-color:#CCCCCC;background:#FFFFFF}
+.btn-cta-ghost:hover{color:#111111;border-color:#111111;background:#F0F0F0}
+.footer{background:#FFFFFF;border-top:1px solid #E5E5E5}
+.tafix-footer .nav-logo,.tafix-footer .nav-logo span{color:#111111}
+.tafix-footer p{color:#666666}
+.tafix-footer>div:last-child{color:#444444}
+.footer-bottom{color:#666666;border-top-color:#E5E5E5}
+.footer-bottom a{color:#111111}
