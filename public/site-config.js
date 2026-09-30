@@ -1,8 +1,8 @@
-// Add verified URLs here. Empty links are intentionally hidden.
+// Store URLs and optional external legal-page overrides.
 window.TAFIX_APPS = {
   "valiso": {
-    "appStore": "",
-    "googlePlay": "",
+    "appStore": "https://apps.apple.com/us/app/travel-packing-list-valiso/id6816232418",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.valiso.travelpackinglist",
     "privacy": "",
     "terms": ""
   },
