@@ -1172,3 +1172,13 @@ body::before,.hero::before,.hero::after,.cta-inner::before{display:none}
 .app-gallery img{display:block;width:100%;height:auto;object-fit:contain}
 .app-gallery figcaption{font-size:.88rem;line-height:1.6;color:#555555;margin-top:14px}
 @media(max-width:768px){.app-gallery-section{padding-bottom:55px}.app-gallery{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:18px;padding:4px 4px 18px;margin-top:26px}.app-gallery figure{flex:0 0 78%;scroll-snap-align:start}.app-gallery figure>a{border-radius:16px}}
+
+/* Shared store symbols for every app download button. */
+.store-button{display:inline-flex;align-items:center;gap:11px;max-width:100%}
+.store-icon{width:23px;height:23px;flex:0 0 23px;display:block}
+.store-button span{min-width:0}
+@media(max-width:480px){.store-button{padding:13px 19px;font-size:.83rem}.store-icon{width:21px;height:21px;flex-basis:21px}}
+
+/* Four-image galleries: four columns on desktop, swipe gallery on phones. */
+@media(min-width:1025px){.app-gallery-four{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}}
+@media(min-width:769px) and (max-width:1024px){.app-gallery-four{grid-template-columns:repeat(2,minmax(0,1fr))}}

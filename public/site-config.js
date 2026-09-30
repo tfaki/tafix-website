@@ -7,32 +7,38 @@ window.TAFIX_APPS = {
     "terms": ""
   },
   "lyvo": {
-    "appStore": "",
-    "googlePlay": "",
+    "appStore": "https://apps.apple.com/tr/app/glp-1-tracker-lyvo/id6794935787",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.loftymr.glptracker",
     "privacy": "",
     "terms": ""
   },
   "piley": {
     "appStore": "",
-    "googlePlay": "",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.loftymr.wristwear.videoplayer",
     "privacy": "",
     "terms": ""
   },
   "prism": {
     "appStore": "",
-    "googlePlay": "",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.loftymr.photogallery.wear.os.watch",
     "privacy": "",
     "terms": ""
   },
   "trasi": {
     "appStore": "",
-    "googlePlay": "",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.loftymr.translator.wearos.watch.translate",
     "privacy": "",
     "terms": ""
   },
   "shutr": {
     "appStore": "",
-    "googlePlay": "",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.loftymr.remote.camera.controller.wear.os.wearos.watch",
+    "privacy": "",
+    "terms": ""
+  },
+  "quran": {
+    "appStore": "",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.loftymr.quranforwear",
     "privacy": "",
     "terms": ""
   }
