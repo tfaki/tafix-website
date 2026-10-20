@@ -36,6 +36,12 @@ window.TAFIX_APPS = {
     "privacy": "",
     "terms": ""
   },
+  "zef": {
+    "appStore": "",
+    "googlePlay": "",
+    "privacy": "",
+    "terms": ""
+  },
   "quran": {
     "appStore": "",
     "googlePlay": "https://play.google.com/store/apps/details?id=com.loftymr.quranforwear",

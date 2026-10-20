@@ -73,3 +73,10 @@ Bu güncellemede `index.html`, `apps/index.html`, `apps/valiso/index.html`, `tem
 - Quran for Wear OS: ikon, 3 görsel, Google Play bağlantısı, Privacy Policy ve Terms sayfaları eklendi. Ana sayfa ve uygulama dizininde en son sıradadır.
 - Tüm uygulamaların indirme düğmeleri ortak Apple / Google Play SVG ikonlarını kullanır.
 - Kullanıcı tercihi: her uygulamadan sonra ZIP paylaşılmayacak; tüm uygulamalar tamamlandığında son paket teslim edilecek.
+
+## ZEF — 20 Ekim 2026
+- Sekizinci uygulama: Weather Navigation for Car: ZEF; iOS ve Android.
+- Ana sayfa ve dizinde Quran öncesinde yer alır; Quran en sondadır.
+- `apps/zef/index.html`, `privacy-policy.html`, `terms.html` hazır.
+- Z harfi geçici ikondur. Görseller, açıklamalar ve mağaza bağlantıları sonra eklenecek.
+- `site-config.js` içindeki `zef.appStore` ve `zef.googlePlay` boş; bağlantılar girildiğinde ikonlu indirme butonları görünür.
