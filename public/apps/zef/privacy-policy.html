@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Weather Navigation for Car gizlilik politikası (iOS + Android ortak).
+  ZEF gizlilik politikası (iOS + Android ortak).
   Uygulamada ne değişirse (yeni SDK, analitik, hesap, push) bu metni ve App Store "App Privacy" / Play "Data safety"
   formlarını birlikte güncelle, "Effective" tarihini değiştir.
 -->
@@ -9,8 +9,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="How Weather Navigation for Car on iPhone and Android handles your location and other information.">
-  <title>Weather Navigation for Car Privacy Policy</title>
+  <meta name="description" content="How ZEF on iPhone and Android handles your location and other information.">
+  <title>ZEF Privacy Policy</title>
   <style>
     :root {
       --bg: #ffffff;
@@ -90,17 +90,17 @@
 <body>
 <main>
   <header>
-    <p class="app">Weather Navigation for Car</p>
+    <p class="app">ZEF</p>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective October 20, 2026</p>
-    <p class="meta">Applies to Weather Navigation for Car on iPhone (including CarPlay, widgets and Live Activities) and on Android (including Android Auto and widgets).</p>
+    <p class="meta">Effective October 21, 2026</p>
+    <p class="meta">Applies to ZEF on iPhone (including CarPlay, widgets and Live Activities) and on Android (including Android Auto and widgets).</p>
   </header>
 
   <section class="summary" aria-labelledby="glance">
     <h2 id="glance">At a glance</h2>
     <ul>
       <li><strong>No account.</strong> We never ask for your name, email address or phone number.</li>
-      <li><strong>No ads, no analytics, no tracking.</strong> We don't use advertising identifiers or track you across other apps and websites.</li>
+      <li><strong>No ads, no analytics, no tracking.</strong> We don't use advertising identifiers or track you across other apps and websites. On Android, we receive crash reports so we can fix bugs; they don't include your location or anything you've searched for.</li>
       <li><strong>Location is used to plan routes and warn you about weather ahead.</strong> Weather requests are rounded to about 5&nbsp;km (3&nbsp;mi), and we don't keep a history of where you've been.</li>
       <li><strong>Your saved routes, favorites and recent searches stay on your device.</strong></li>
       <li><strong>We never sell your data.</strong></li>
@@ -126,8 +126,8 @@
   </nav>
 
   <h2 id="about">1. About this policy</h2>
-  <p>This policy explains how Weather Navigation for Car (“the app”, “we”, “us”) handles information when you use it on iPhone or Android. The app is developed by Nurcihan Fakioglu, who is responsible for the processing described here (the “data controller” under the EU and UK GDPR and Turkey's Personal Data Protection Law, KVKK).</p>
-  <p>Weather Navigation for Car shows the weather along your driving route, colors the route by risk, shows weather radar and official weather alerts, and can read alerts aloud while you drive.</p>
+  <p>This policy explains how ZEF (“the app”, “we”, “us”) handles information when you use it on iPhone or Android. The app is developed by Nurcihan Fakioglu, who is responsible for the processing described here (the “data controller” under the EU and UK GDPR and Turkey's Personal Data Protection Law, KVKK).</p>
+  <p>ZEF shows the weather along your driving route, colors the route by risk, shows weather radar and official weather alerts, and can read alerts aloud while you drive.</p>
 
   <h2 id="info">2. Information the app uses</h2>
 
@@ -186,10 +186,19 @@
     <li>On CarPlay and Android Auto, the app shows the same information on your car's display. We don't collect any data from your vehicle. If you ask your car's voice assistant to navigate somewhere, the assistant passes only the destination to the app.</li>
   </ul>
 
-  <h3>2.7 What we don't collect</h3>
+  <h3>2.7 Crash reports (Android)</h3>
+  <p>If the Android app crashes or runs into a serious error, it sends a crash report to Firebase Crashlytics, a Google service. A report contains:</p>
+  <ul>
+    <li>technical details of the error, such as the stack trace and which part of the app was running;</li>
+    <li>device and app information, such as device model, Android version, app version, free memory and storage, and screen orientation;</li>
+    <li>a random identifier for this installation of the app, so we can tell how many devices a problem affects.</li>
+  </ul>
+  <p>Crash reports don't include your location, routes, searches, saved places or purchase details, and they aren't linked to your Google account or used for advertising. The iPhone app doesn't use a crash-reporting service.</p>
+
+  <h3>2.8 What we don't collect</h3>
   <ul>
     <li>Your name, email address, phone number, contacts, photos or microphone audio.</li>
-    <li>Advertising identifiers. The app contains no advertising, analytics or crash-reporting SDKs and doesn't track you across apps or websites owned by other companies.</li>
+    <li>Advertising identifiers. The app contains no advertising or analytics SDKs and doesn't track you across apps or websites owned by other companies.</li>
   </ul>
   <p class="note">If you've chosen to share diagnostics in your device settings, Apple or Google may give us anonymous crash and performance reports. These don't identify you.</p>
 
@@ -235,7 +244,12 @@
         <tr>
           <td>Google Maps Platform and Google Play services (Android)</td>
           <td>Map, place search, directions and device location.</td>
-          <td>Search text, approximate location, route start and destination, the map area shown, and technical information such as your IP address. <a href="https://policies.google.com/privacy">Privacy policy</a></td>
+          <td>Search text, approximate location, route start and destination, the map area shown, and technical information such as your IP address. Google's map and place SDKs also send Google their own diagnostics (such as crash and performance data, and a random SDK identifier). <a href="https://policies.google.com/privacy">Privacy policy</a></td>
+        </tr>
+        <tr>
+          <td>Firebase Crashlytics (Android)</td>
+          <td>Crash reports.</td>
+          <td>The crash reports described in 2.7. <a href="https://firebase.google.com/support/privacy">Privacy information</a></td>
         </tr>
         <tr>
           <td>RevenueCat</td>
@@ -258,6 +272,7 @@
   <ul>
     <li><strong>On your device:</strong> until you delete it or uninstall the app. Downloaded weather and the current route plan expire automatically.</li>
     <li><strong>On our server:</strong> there's no user database. Weather is stored by location only, so every user asking about the same area gets the same answer. Our hosting provider keeps operational logs (time, requested address including the rounded coordinates, and errors) for a few days, then deletes them automatically. Your IP address is used to limit excessive requests but isn't written to our logs.</li>
+    <li><strong>Crash reports:</strong> kept by Firebase Crashlytics for 90 days, then deleted automatically.</li>
     <li><strong>RevenueCat and the app stores:</strong> for as long as needed to manage your subscription and meet legal and tax obligations.</li>
   </ul>
 
@@ -281,7 +296,7 @@
   <p>All connections between the app and our server use encryption (HTTPS). We keep the data we handle to a minimum, and data on your device stays in the app's private storage, protected by your operating system. No method of transmission or storage is completely secure, but we work to protect the information the app uses.</p>
 
   <h2 id="children">11. Children</h2>
-  <p>Weather Navigation for Car is a driving app and isn't directed to children under 13 (or the minimum age in your country). We don't knowingly collect personal information from children. If you believe a child has provided personal information, contact us and we'll help delete it.</p>
+  <p>ZEF is a driving app and isn't directed to children under 13 (or the minimum age in your country). We don't knowingly collect personal information from children. If you believe a child has provided personal information, contact us and we'll help delete it.</p>
 
   <h2 id="changes">12. Changes to this policy</h2>
   <p>If we change this policy, we'll post the new version on this page and update the effective date at the top. Where the law requires it, we'll also notify you in the app.</p>
