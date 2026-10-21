@@ -92,7 +92,7 @@
   <header>
     <p class="app">ZEF</p>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective October 21, 2026</p>
+    <p class="meta">Effective October 22, 2026</p>
     <p class="meta">Applies to ZEF on iPhone (including CarPlay, widgets and Live Activities) and on Android (including Android Auto and widgets).</p>
   </header>
 
@@ -100,7 +100,7 @@
     <h2 id="glance">At a glance</h2>
     <ul>
       <li><strong>No account.</strong> We never ask for your name, email address or phone number.</li>
-      <li><strong>No ads, no analytics, no tracking.</strong> We don't use advertising identifiers or track you across other apps and websites. On Android, we receive crash reports so we can fix bugs; they don't include your location or anything you've searched for.</li>
+      <li><strong>No ads, no tracking.</strong> We don't use advertising identifiers or track you across other apps and websites. On Android, we receive crash reports and simple usage statistics (which screens are opened) so we can fix bugs and improve the app; they don't include your location or anything you've searched for.</li>
       <li><strong>Location is used to plan routes and warn you about weather ahead.</strong> Weather requests are rounded to about 5&nbsp;km (3&nbsp;mi), and we don't keep a history of where you've been.</li>
       <li><strong>Your saved routes, favorites and recent searches stay on your device.</strong></li>
       <li><strong>We never sell your data.</strong></li>
@@ -195,10 +195,20 @@
   </ul>
   <p>Crash reports don't include your location, routes, searches, saved places or purchase details, and they aren't linked to your Google account or used for advertising. The iPhone app doesn't use a crash-reporting service.</p>
 
-  <h3>2.8 What we don't collect</h3>
+  <h3>2.8 Usage statistics (Android)</h3>
+  <p>The Android app records which screens you open, such as the map, search, settings, the subscription screen, a step of the welcome tour or a screen on Android Auto, and sends these events to Mixpanel and Google Analytics for Firebase. An event contains:</p>
+  <ul>
+    <li>the screen's name and, for a few screens, simple context: which welcome step it is, whether a search is for a start, a destination or a favorite, and which PRO feature opened the subscription screen;</li>
+    <li>whether you have PRO;</li>
+    <li>device and app information, such as device model, Android version, app version and language, and an approximate country or region that Google derives from your IP address (Mixpanel doesn't use your IP address to estimate location);</li>
+    <li>random identifiers for this installation of the app, so we can count screens per device.</li>
+  </ul>
+  <p>Usage statistics don't include your location, routes, searches, place names or purchase details. They aren't linked to your Google account, and they aren't used for advertising: collection of the advertising identifier and ad personalization signals is turned off. The iPhone app doesn't collect usage statistics.</p>
+
+  <h3>2.9 What we don't collect</h3>
   <ul>
     <li>Your name, email address, phone number, contacts, photos or microphone audio.</li>
-    <li>Advertising identifiers. The app contains no advertising or analytics SDKs and doesn't track you across apps or websites owned by other companies.</li>
+    <li>Advertising identifiers. The app contains no advertising SDKs and doesn't track you across apps or websites owned by other companies.</li>
   </ul>
   <p class="note">If you've chosen to share diagnostics in your device settings, Apple or Google may give us anonymous crash and performance reports. These don't identify you.</p>
 
@@ -207,11 +217,12 @@
   <ul>
     <li>provide the app's features: routes, route weather, radar, official alerts, voice alerts, widgets and car screens;</li>
     <li>keep the service reliable and secure, for example by limiting excessive requests and diagnosing errors;</li>
+    <li>understand which screens and features are used, so we can improve the app (Android usage statistics in 2.8);</li>
     <li>manage your subscription and restore purchases;</li>
     <li>comply with legal obligations.</li>
   </ul>
   <p>We don't use your information for advertising or profiling, and we don't sell it.</p>
-  <p><strong>Legal bases (EEA, UK, Turkey).</strong> We process information because it's necessary to provide the app you asked for; with your consent, which you give through your device's location and notification permissions and can withdraw at any time in Settings; and for our legitimate interest in keeping the service secure and working.</p>
+  <p><strong>Legal bases (EEA, UK, Turkey).</strong> We process information because it's necessary to provide the app you asked for; with your consent, which you give through your device's location and notification permissions and can withdraw at any time in Settings; and for our legitimate interest in keeping the service secure and working and in improving it.</p>
 
   <h2 id="providers">4. Service providers</h2>
   <p>We rely on the following providers. Each one handles data under its own privacy policy.</p>
@@ -252,6 +263,16 @@
           <td>The crash reports described in 2.7. <a href="https://firebase.google.com/support/privacy">Privacy information</a></td>
         </tr>
         <tr>
+          <td>Google Analytics for Firebase (Android)</td>
+          <td>Usage statistics.</td>
+          <td>The screen events described in 2.8, and your IP address, from which Google derives an approximate country or region. <a href="https://firebase.google.com/support/privacy">Privacy information</a></td>
+        </tr>
+        <tr>
+          <td>Mixpanel (Android)</td>
+          <td>Usage statistics.</td>
+          <td>The screen events described in 2.8. <a href="https://mixpanel.com/legal/privacy-policy/">Privacy policy</a></td>
+        </tr>
+        <tr>
           <td>RevenueCat</td>
           <td>Subscription status and restoring purchases.</td>
           <td>The anonymous identifier, purchase history and device information in 2.4. <a href="https://www.revenuecat.com/privacy/">Privacy policy</a></td>
@@ -273,6 +294,9 @@
     <li><strong>On your device:</strong> until you delete it or uninstall the app. Downloaded weather and the current route plan expire automatically.</li>
     <li><strong>On our server:</strong> there's no user database. Weather is stored by location only, so every user asking about the same area gets the same answer. Our hosting provider keeps operational logs (time, requested address including the rounded coordinates, and errors) for a few days, then deletes them automatically. Your IP address is used to limit excessive requests but isn't written to our logs.</li>
     <li><strong>Crash reports:</strong> kept by Firebase Crashlytics for 90 days, then deleted automatically.</li>
+    <!-- TODO(yayın öncesi): Firebase Analytics veri saklama (Admin → Data retention: 2 ya da 14 ay) ve Mixpanel
+         saklama süresi panellerdeki ayarla aynı olmalı; değerleri kontrol edip güncelle. -->
+    <li><strong>Usage statistics:</strong> Google Analytics keeps device-level data for 2 months; Mixpanel keeps events for as long as we need them to understand how the app is used, and no longer than 2 years. Totals that can't identify a device may be kept longer.</li>
     <li><strong>RevenueCat and the app stores:</strong> for as long as needed to manage your subscription and meet legal and tax obligations.</li>
   </ul>
 
