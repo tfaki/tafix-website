@@ -80,3 +80,10 @@ Bu güncellemede `index.html`, `apps/index.html`, `apps/valiso/index.html`, `tem
 - `apps/zef/index.html`, `privacy-policy.html`, `terms.html` hazır.
 - Z harfi geçici ikondur. Görseller, açıklamalar ve mağaza bağlantıları sonra eklenecek.
 - `site-config.js` içindeki `zef.appStore` ve `zef.googlePlay` boş; bağlantılar girildiğinde ikonlu indirme butonları görünür.
+
+## Pafta — 23 Ekim 2026
+- Outdoor GPS & MGRS Map: Pafta; iOS ve Android.
+- Dokuzuncu uygulama; ZEF sonrasında, Quran öncesinde yer alır.
+- `apps/pafta/index.html`, `privacy-policy.html`, `terms.html` hazır.
+- P harfi geçici ikondur. İçerik, görseller ve mağaza bağlantıları sonra eklenecek.
+- `site-config.js` içindeki `pafta.appStore` ve `pafta.googlePlay` boş; bağlantılar girilince ikonlu butonlar görünür.
