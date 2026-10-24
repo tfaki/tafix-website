@@ -178,7 +178,7 @@
   <li><strong>Map tiles:</strong> tiles for the area you view or download are requested from the map source you select (such as OpenFreeMap, OpenTopoMap or Waymarked Trails). The provider can see which area's tiles were requested.</li>
   <li><strong>Elevation:</strong> elevation values for the crosshair, route profiles and the area you're viewing come from the Copernicus DEM, read from Amazon Web Services' open data storage. The request names the part of the elevation grid that covers that area.</li>
   <li><strong>Relief shading:</strong> when relief is turned on, shading tiles for the area you view are loaded from the Terrain Tiles dataset, also on Amazon Web Services.</li>
-  <li><strong>Weather:</strong> when you open the weather screen, the rounded position described in 2.1 is sent to Open-Meteo. Sunrise, sunset and moon times are calculated on your device.</li>
+  <li><strong>Weather:</strong> when you open the weather screen, the rounded position described in 2.1 is sent to MET Norway (the Norwegian Meteorological Institute). MET Norway keeps your IP address and the requested coordinates in its access logs in Oslo, Norway. Sunrise, sunset and moon times are calculated on your device.</li>
 </ul>
 <p>Downloaded maps, elevation data and the last forecast are stored on your device, so the app works without a connection.</p>
 
@@ -266,9 +266,9 @@
       <td data-label="What it receives">Requests for the part of the elevation data covering the area you view, with technical information such as your IP address. <a href="https://aws.amazon.com/privacy/">Privacy notice</a></td>
     </tr>
     <tr>
-      <td>Open-Meteo</td>
-      <td data-label="What it does">Weather forecasts.</td>
-      <td data-label="What it receives">Your position rounded to about 1 km, and your IP address, when you open the weather screen. <a href="https://open-meteo.com/en/terms#privacy">Privacy information</a></td>
+      <td>MET Norway</td>
+      <td data-label="What it does">Weather forecasts (Norwegian Meteorological Institute).</td>
+      <td data-label="What it receives">Your position rounded to about 1 km, and your IP address, when you open the weather screen. Kept in its access logs in Norway. <a href="https://www.met.no/en/About-us/privacy">Privacy policy</a></td>
     </tr>
     <tr>
       <td>Mixpanel</td>
