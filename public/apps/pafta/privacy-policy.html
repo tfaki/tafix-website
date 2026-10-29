@@ -100,7 +100,7 @@
 
 <p class="app">Pafta</p>
 <h1>Privacy Policy</h1>
-<p class="meta">Effective October 24, 2026</p>
+<p class="meta">Effective October 29, 2026</p>
 <p class="meta">Applies to Pafta on iPhone and on Android.</p>
 
 <section class="glance">
@@ -109,7 +109,7 @@
     <li><strong>No account.</strong> We never ask for your name, email address or phone number.</li>
     <li><strong>No ads, no tracking.</strong> We don't use advertising identifiers or track you across other apps and websites.</li>
     <li><strong>Your data stays on your device.</strong> Your location, waypoints, tracks, routes, areas, photos, videos and voice notes are stored on your phone. We don't run a server that receives them.</li>
-    <li><strong>Usage statistics and crash reports.</strong> To fix bugs and improve the app, we receive simple usage statistics (which screens and features are used) and, on Android, crash reports. They never include your location, coordinates, the names or notes you type, or file names.</li>
+    <li><strong>Usage statistics and crash reports.</strong> To fix bugs and improve the app, we receive simple usage statistics (which screens and features are used) and crash reports. They never include your location, coordinates, the names or notes you type, or file names.</li>
     <li><strong>Online map data.</strong> Map, elevation and weather requests reveal the area you're looking at, not who you are. Weather requests are rounded to about 1 km (0.6 mi).</li>
     <li><strong>We never sell your data.</strong></li>
   </ul>
@@ -193,6 +193,7 @@
 <p>The app stores the following in its private storage on your device. It isn't sent to us.</p>
 <ul>
   <li>your settings, such as coordinate format, units, theme, language and recording profile, and the answers you give in the welcome tour;</li>
+  <li>the phone numbers you enter as SOS recipients;</li>
   <li>downloaded offline maps, cached map styles, elevation data (up to 250 MB, oldest removed first) and the last weather forecast;</li>
   <li>the state of a recording or navigation in progress, so it survives an app restart.</li>
 </ul>
@@ -202,7 +203,7 @@
 <p>Arrival, off-route and sunset alerts, and the notification shown while recording or navigating, are created on your device. We don't use push notification servers or push tokens.</p>
 
 <h3 id="statistics">2.8 Usage statistics</h3>
-<p>The app records which screens you open and which features you use, and sends these events to Mixpanel (on iPhone and Android, stored in Mixpanel's EU data center) and to Google Analytics for Firebase (on Android). An event contains:</p>
+<p>The app records which screens you open and which features you use, and sends these events to Mixpanel (stored in Mixpanel's EU data center) and to Google Analytics for Firebase. An event contains:</p>
 <ul>
   <li>the screen's name, or a feature with fixed values only, for example &ldquo;track recording started&rdquo;, &ldquo;GPX exported&rdquo; or &ldquo;coordinate format MGRS selected&rdquo;;</li>
   <li>counts and ranges instead of content, for example &ldquo;10&ndash;100 waypoints&rdquo; or a track's distance range and duration;</li>
@@ -213,14 +214,14 @@
 </ul>
 <p>Usage statistics never include your location or coordinates, waypoint, track, route, area or folder names, notes, file names, photos, recordings or anything else you type. They aren't linked to your Apple or Google account and aren't used for advertising: collection of the advertising identifier and ad personalization signals is turned off. Sending usage statistics is part of how the app works and can't be turned off in the app.</p>
 
-<h3 id="crashes">2.9 Crash reports (Android)</h3>
-<p>If the Android app crashes or runs into a serious error, it sends a crash report to Firebase Crashlytics, a Google service. A report contains:</p>
+<h3 id="crashes">2.9 Crash reports</h3>
+<p>If the app crashes or runs into a serious error, it sends a crash report to Firebase Crashlytics, a Google service. A report contains:</p>
 <ul>
   <li>technical details of the error, such as the stack trace and which part of the app was running;</li>
-  <li>device and app information, such as device model, Android version, app version, free memory and storage, and screen orientation;</li>
+  <li>device and app information, such as device model, operating system version, app version, free memory and storage, and screen orientation;</li>
   <li>a random identifier for this installation of the app, so we can tell how many devices a problem affects.</li>
 </ul>
-<p>Crash reports don't include your location, waypoints, tracks, routes, names, notes or purchase details, and they aren't linked to your Google account or used for advertising. The iPhone app doesn't use a crash-reporting service.</p>
+<p>Crash reports don't include your location, waypoints, tracks, routes, names, notes or purchase details, and they aren't linked to your Apple or Google account or used for advertising.</p>
 
 <h3 id="not-collected">2.10 What we don't collect</h3>
 <ul>
@@ -276,12 +277,12 @@
       <td data-label="What it receives">The events described in 2.8. <a href="https://mixpanel.com/legal/privacy-policy/">Privacy policy</a></td>
     </tr>
     <tr>
-      <td>Google Analytics for Firebase (Android)</td>
+      <td>Google Analytics for Firebase</td>
       <td data-label="What it does">Usage statistics.</td>
       <td data-label="What it receives">The events described in 2.8, and your IP address, from which Google derives an approximate country or region. <a href="https://firebase.google.com/support/privacy">Privacy information</a></td>
     </tr>
     <tr>
-      <td>Firebase Crashlytics (Android)</td>
+      <td>Firebase Crashlytics</td>
       <td data-label="What it does">Crash reports.</td>
       <td data-label="What it receives">The crash reports described in 2.9. <a href="https://firebase.google.com/support/privacy">Privacy information</a></td>
     </tr>
