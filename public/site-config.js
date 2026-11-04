@@ -38,13 +38,13 @@ window.TAFIX_APPS = {
   },
   "zef": {
     "appStore": "",
-    "googlePlay": "",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.loftymr.weather.navigation&pli=1",
     "privacy": "",
     "terms": ""
   },
   "pafta": {
     "appStore": "",
-    "googlePlay": "",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.loftymr.tactical.offline.gps.pafta",
     "privacy": "",
     "terms": ""
   },
