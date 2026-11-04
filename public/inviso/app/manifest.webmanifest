@@ -1,0 +1,73 @@
+{
+  "id": "/inviso/app/",
+  "name": "Inviso",
+  "short_name": "Inviso",
+  "start_url": "/inviso/app/",
+  "scope": "/inviso/app/",
+  "display": "standalone",
+  "background_color": "#F4F5F8",
+  "theme_color": "#1F4FD6",
+  "icons": [
+    {
+      "src": "/inviso/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/inviso/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/inviso/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/inviso/app/",
+      "accept": {
+        "application/pkcs7-mime": [
+          ".p7m"
+        ],
+        "application/pkcs7-signature": [
+          ".p7s"
+        ],
+        "application/timestamped-data": [
+          ".tsd"
+        ],
+        "application/vnd.etsi.asic-e+zip": [
+          ".asice",
+          ".sce"
+        ],
+        "application/vnd.etsi.asic-s+zip": [
+          ".asics",
+          ".scs"
+        ],
+        "application/xml": [
+          ".xml"
+        ],
+        "application/pdf": [
+          ".pdf"
+        ],
+        "application/zip": [
+          ".zip"
+        ],
+        "message/rfc822": [
+          ".eml"
+        ],
+        "application/vnd.ms-outlook": [
+          ".msg"
+        ],
+        "application/octet-stream": [
+          ".m7m"
+        ]
+      }
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
